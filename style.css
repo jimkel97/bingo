@@ -1,0 +1,46 @@
+.board {
+	padding: 3vw;
+	position: absolute;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: .5%;
+	background-color: lightgreen;
+	border-radius: 5%;
+	top: 5%;
+	left: 10vw;
+}
+
+.bgbirdword {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	content: "stuff";
+	/*height: 25vh;*/
+	/*width: 25vh;*/
+	height: 151px;
+	width: 150px;
+}
+
+.bgbird {
+	/*content: url('../intmedia/bird.png');*/
+	content: url('intmedia/bird.png');
+	background-color: green;
+}
+
+#topleft {
+	border-top-left-radius: 5%;
+}
+
+#topright{
+	border-top-right-radius: 5%;
+}
+
+#bottleft {
+	border-bottom-left-radius: 5%;
+}
+
+#bottright {
+	border-bottom-right-radius: 5%;
+}
+
