@@ -2,7 +2,7 @@
 	padding: 3vw;
 	position: absolute;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: .5%;
 	background-color: lightgreen;
 	border-radius: 5%;
@@ -10,6 +10,24 @@
 	left: 10vw;
 }
 
+#instructions {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: white;
+	height: 20px;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	padding: 20px;
+}
+#instructions::before {
+	content: 'Listen to the audio.';
+}
+#ear {
+	background-color: white;
+	text-align: center;
+}
 .bgbirdword {
 	background-color: white;
 	display: flex;
@@ -26,14 +44,6 @@
 	/*content: url('../intmedia/bird.png');*/
 	content: url('intmedia/bird.png');
 	background-color: green;
-}
-
-#topleft {
-	border-top-left-radius: 5%;
-}
-
-#topright{
-	border-top-right-radius: 5%;
 }
 
 #bottleft {
