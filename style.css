@@ -1,56 +1,61 @@
 .board {
-	padding: 3vw;
-	position: absolute;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: .5%;
-	background-color: lightgreen;
-	border-radius: 5%;
-	top: 5%;
-	left: 10vw;
+    padding: 3vw;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .5%;
+    background-color: lightgreen;
+    border-radius: 5%;
+    top: 5%;
+    left: 10vw;
 }
 
 #instructions {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	background-color: white;
-	height: 20px;
-	border-top-left-radius: 5%;
-	border-top-right-radius: 5%;
-	padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    height: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    padding: 20px;
 }
+
 #instructions::before {
-	content: 'Listen to the audio.';
+    content: 'Listen to the audio.';
 }
+
 #ear {
-	background-color: white;
-	text-align: center;
+    background-color: white;
+    text-align: center;
 }
+
 .bgbirdword {
-	background-color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	content: "stuff";
-	/*height: 25vh;*/
-	/*width: 25vh;*/
-	height: 151px;
-	width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 25vh;*/
+    /*width: 25vh;*/
+    height: 151px;
+    width: 150px;
+}
+.bgbirdword:before {
+    content: "word";
 }
 
 .bgbird {
-	/*content: url('../intmedia/bird.png');*/
-	content: url('intmedia/bird.png');
-	background-color: green;
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/bird.png');
+    background-color: green;
 }
 
 #bottleft {
-	border-bottom-left-radius: 5%;
+    border-bottom-left-radius: 5%;
 }
 
 #bottright {
-	border-bottom-right-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 
