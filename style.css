@@ -1,10 +1,11 @@
 .board {
-    padding: 3vw;
+    padding: 3%;
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: .5%;
-    background-color: lightgreen;
+    background-image: url("intmedia/background.png");
+    background-size: contain;
     border-radius: 5%;
     top: 5%;
     left: 10vw;
@@ -31,7 +32,7 @@
     text-align: center;
 }
 
-.bgbirdword {
+.bgblank {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -41,14 +42,86 @@
     height: 151px;
     width: 150px;
 }
-.bgbirdword:before {
-    content: "word";
+.bgcardinalword:before {
+    content: "cardinal";
 }
 
-.bgbird {
+.bgcardinal {
     /*content: url('../intmedia/bird.png');*/
-    content: url('intmedia/bird.png');
-    background-color: green;
+    content: url('intmedia/cardinal.png');
+    background-color: rgb(120 149 24);
+}
+.bgraccoonword:before {
+    content: "raccoon";
+}
+
+.bgraccoon {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/raccoon.png');
+    background-color: rgb(120 149 24);
+}
+.bgslothword:before {
+    content: "sloth";
+}
+
+.bgsloth {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/sloth.png');
+    background-color: rgb(120 149 24);
+}
+.bglizardword:before {
+    content: "lizard";
+}
+
+.bglizard {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/lizard.png');
+    background-color: rgb(120 149 24);
+}
+.bgspiderword:before {
+    content: "spider";
+}
+
+.bgspider {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/spider.png');
+    background-color: rgb(120 149 24);
+}
+.bgtigerword:before {
+    content: "tiger";
+}
+
+.bgtiger {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/tiger.png');
+    background-color: rgb(120 149 24);
+}
+.bgcolorbirdword:before {
+    content: "colorbird";
+}
+
+.bgcolorbird {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/colorbird.png');
+    background-color: rgb(120 149 24);
+}
+.bgdeerword:before {
+    content: "deer";
+}
+
+.bgdeer {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/deer.png');
+    background-color: rgb(120 149 24);
+}
+.bgbunnyword:before {
+    content: "bunny";
+}
+
+.bgbunny {
+    /*content: url('../intmedia/bird.png');*/
+    content: url('intmedia/bunny.png');
+    background-color: rgb(120 149 24);
 }
 
 #bottleft {
