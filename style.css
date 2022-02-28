@@ -2,13 +2,13 @@
     padding: 3%;
     position: absolute;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: .5%;
-    background-image: url("intmedia/background.png");
-    background-size: contain;
     border-radius: 5%;
     top: 5%;
-    left: 10vw;
+    background-image: url("intmedia/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #instructions {
@@ -30,6 +30,12 @@
 #ear {
     background-color: white;
     text-align: center;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
 }
 
 .bgblank {
@@ -37,8 +43,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 25vh;*/
-    /*width: 25vh;*/
+    /*height: 25vh;
+    width: 25vh;*/
     height: 151px;
     width: 150px;
 }
