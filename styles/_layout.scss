@@ -1,0 +1,46 @@
+.board {
+        padding: 3%;
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: .5%;
+        border-radius: 5%;
+        top: 5%;
+        background-image: url("intmedia/background.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+
+#instructions {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: white;
+        height: 20px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        padding: 20px;
+}
+
+#ear {
+        background-color: white;
+        text-align: center;
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+}
+
+.bgblank {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*height: 25vh;
+        width: 25vh;*/
+        height: 151px;
+        width: 150px;
+}

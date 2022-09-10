@@ -1,0 +1,150 @@
+.board {
+  padding: 3%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5%;
+  border-radius: 5%;
+  top: 5%;
+  background-image: url("intmedia/background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#instructions {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: white;
+  height: 20px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  padding: 20px;
+}
+
+#ear {
+  background-color: white;
+  text-align: center;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.bgblank {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 25vh;
+  width: 25vh;*/
+  height: 151px;
+  width: 150px;
+}
+
+#instructions::before {
+  content: "Listen to the audio.";
+}
+
+.bgcardinalword:before {
+  content: "cardinal";
+}
+
+.bgcardinal {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/cardinal.png");
+  background-color: #789518;
+}
+
+.bgraccoonword:before {
+  content: "raccoon";
+}
+
+.bgraccoon {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/raccoon.png");
+  background-color: #789518;
+}
+
+.bgslothword:before {
+  content: "sloth";
+}
+
+.bgsloth {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/sloth.png");
+  background-color: #789518;
+}
+
+.bglizardword:before {
+  content: "lizard";
+}
+
+.bglizard {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/lizard.png");
+  background-color: #789518;
+}
+
+.bgspiderword:before {
+  content: "spider";
+}
+
+.bgspider {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/spider.png");
+  background-color: #789518;
+}
+
+.bgtigerword:before {
+  content: "tiger";
+}
+
+.bgtiger {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/tiger.png");
+  background-color: #789518;
+}
+
+.bgcolorbirdword:before {
+  content: "colorbird";
+}
+
+.bgcolorbird {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/colorbird.png");
+  background-color: #789518;
+}
+
+.bgdeerword:before {
+  content: "deer";
+}
+
+.bgdeer {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/deer.png");
+  background-color: #789518;
+}
+
+.bgbunnyword:before {
+  content: "bunny";
+}
+
+.bgbunny {
+  /*content: url('../intmedia/bird.png');*/
+  content: url("intmedia/bunny.png");
+  background-color: #789518;
+}
+
+#bottleft {
+  border-bottom-left-radius: 5%;
+}
+
+#bottright {
+  border-bottom-right-radius: 5%;
+}
+
+/*# sourceMappingURL=main.css.map */

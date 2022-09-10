@@ -1,0 +1,94 @@
+#instructions::before {
+        content: 'Listen to the audio.';
+}
+
+.bgcardinalword:before {
+        content: "cardinal";
+}
+
+.bgcardinal {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/cardinal.png');
+        background-color: rgb(120 149 24);
+}
+.bgraccoonword:before {
+        content: "raccoon";
+}
+
+.bgraccoon {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/raccoon.png');
+        background-color: rgb(120 149 24);
+}
+.bgslothword:before {
+        content: "sloth";
+}
+
+.bgsloth {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/sloth.png');
+        background-color: rgb(120 149 24);
+}
+.bglizardword:before {
+        content: "lizard";
+}
+
+.bglizard {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/lizard.png');
+        background-color: rgb(120 149 24);
+}
+.bgspiderword:before {
+        content: "spider";
+}
+
+.bgspider {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/spider.png');
+        background-color: rgb(120 149 24);
+}
+.bgtigerword:before {
+        content: "tiger";
+}
+
+.bgtiger {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/tiger.png');
+        background-color: rgb(120 149 24);
+}
+.bgcolorbirdword:before {
+        content: "colorbird";
+}
+
+.bgcolorbird {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/colorbird.png');
+        background-color: rgb(120 149 24);
+}
+.bgdeerword:before {
+        content: "deer";
+}
+
+.bgdeer {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/deer.png');
+        background-color: rgb(120 149 24);
+}
+.bgbunnyword:before {
+        content: "bunny";
+}
+
+.bgbunny {
+        /*content: url('../intmedia/bird.png');*/
+        content: url('intmedia/bunny.png');
+        background-color: rgb(120 149 24);
+}
+
+#bottleft {
+        border-bottom-left-radius: 5%;
+}
+
+#bottright {
+        border-bottom-right-radius: 5%;
+}
+
